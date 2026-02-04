@@ -1,0 +1,44 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #fff8dc;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.container {
+  text-align: center;
+}
+
+h1 {
+  color: #333;
+  margin-bottom: 30px;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+button {
+  padding: 15px 25px;
+  font-size: 18px;
+  cursor: pointer;
+  border: none;
+  border-radius: 8px;
+  transition: all 0.3s ease;
+}
+
+#aapBtn {
+  background-color: #4CAF50;
+  color: white;
+}
+
+#kareleBtn {
+  background-color: #f44336;
+  color: white;
+  position: relative;
+}
